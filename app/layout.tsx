@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${roboto.className} w-full px-24`}>
+      <body className={`${roboto.className} w-full bg-slate-100 px-24`}>
         <Navbar />
         {children}
         <Footer />
